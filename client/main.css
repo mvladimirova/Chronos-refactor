@@ -1,0 +1,38 @@
+.info {
+    background-color: #F7820C
+}
+body{
+    background-color: #403F42;
+    /*background-color: #7A7A7A;*/
+}
+header {
+    height: 65px;
+    overflow: hidden;
+}
+#title {
+    font-size: xx-large;
+    margin-left: 37px;
+    margin-top: 8px;
+}
+
+#log-in-btn {
+    background-color: #F7820C;
+    border-color: #F7820C;
+    position: absolute;
+    right: 203px;
+    top: 0px;
+    height: 65px;
+}
+#register-btn {
+    background-color: #F7820C;
+    position: absolute;
+    right: 114px;
+    top: 0px;
+    height: 65px;
+}
+#log-in-btn:hover {
+    background-color: #F7B80C;
+}
+#register-btn:hover {
+    background-color: #F7B80C;
+}

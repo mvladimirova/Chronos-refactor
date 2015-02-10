@@ -1,0 +1,41 @@
+{
+  "name": "Chronos",
+  "version": "0.0.0",
+  "description": "awesome sports event manager",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BKaraargirov/Victoria"
+  },
+  "keywords": [
+    "sports",
+    "js",
+    "event",
+    "victoria"
+  ],
+  "author": "BK",
+  "license": "GNUv2",
+  "bugs": {
+    "url": "https://github.com/BKaraargirov/Victoria/issues"
+  },
+  "homepage": "https://github.com/BKaraargirov/Victoria",
+  "dependencies": {
+    "body-parser": "1.10.0",
+    "connect": "3.3.3",
+    "ejs": "2.1.4",
+    "express": "4.10.6",
+    "express-jwt": "^1.0.0",
+    "fs": "0.0.2",
+    "jsonwebtoken": "^3.2.2",
+    "mocha": "2.1.0",
+    "mongoose": "3.8.21",
+    "q": "1.1.2",
+    "should": "4.4.1",
+    "type-is": "1.5.5",
+    "underscore": "1.7.0",
+    "uuid": "^2.0.1"
+  }
+}
