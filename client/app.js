@@ -10,7 +10,7 @@ Chronos.addRegions({
 
 //Chronos.start();
 
-Chronos.on('initialize:after', function(){
-    var headerView = new Views.HeaderView({});
+Chronos.on('start', function(){
+    var headerView = new Chronos.Views.HeaderView({});
     Chronos.header.show(headerView);
 });
